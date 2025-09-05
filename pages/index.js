@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main style={{ padding: 24, fontFamily: "Inter, system-ui, sans-serif", display: "flex", minHeight: "80vh", alignItems: "center", justifyContent: "center" }}>
