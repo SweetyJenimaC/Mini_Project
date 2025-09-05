@@ -2,6 +2,7 @@ import path from "path";
 import fs from "fs/promises";
 import formidable from "formidable";
 import { getDb } from "../../../lib/db";
+import Link from "next/link";
 
 export const config = { api: { bodyParser: false } };
 
