@@ -6,8 +6,8 @@ export default function Home() {
         <h1 style={{ fontSize: 32 }}>School Directory</h1>
         <p style={{ color: "#6b7280" }}>Add schools and browse the list.</p>
         <div style={{ marginTop: 16, display: "flex", gap: 8 }}>
-          <Link href="/addSchool" style={{ padding: "8px 14px", background: "#000", color: "#fff", borderRadius: 8 }}><a>Add School</a>
-          <Link href="/showSchools" style={{ padding: "8px 14px", borderRadius: 8, border: "1px solid #e5e7eb" }}><a>Show Schools</a>
+          <Link href="/addSchool" style={{ padding: "8px 14px", background: "#000", color: "#fff", borderRadius: 8 }}>Add School</Link>
+          <Link href="/showSchools" style={{ padding: "8px 14px", borderRadius: 8, border: "1px solid #e5e7eb" }}>Show Schools</Link>
         </div>
       </div>
     </main>
